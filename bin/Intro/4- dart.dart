@@ -1,5 +1,4 @@
 void main() {
-  // app start from here
   var name = "Ahmed";
   var name1 = 15;
   var age = 19;

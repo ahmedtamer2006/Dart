@@ -1,6 +1,5 @@
 void main() {
   String name = "Ahmed";
-  //String nameError = Ahmed;
   int number = 19;
   double number1 = 19.7;
   bool TF = true;
@@ -8,7 +7,7 @@ void main() {
   num dynamic1 = 23.5;
   bool isMarried = false;
 
-// const mean var is immutable
+  // const mean var is immutable
 
   print("Hello $name");
   print(number);
