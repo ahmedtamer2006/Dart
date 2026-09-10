@@ -1,8 +1,11 @@
+import 'dart:io';
+
 void main() {
-  var name = "Ahmed";
-  var name1 = 15;
-  var age = 19;
-  // print("Your name is : $name \n your age is : $age");
-  print("your name is : $name \n your age is : $age");
-  print(name1 + age);
+  print("What is Your name ?");
+  String? name = stdin.readLineSync();
+
+  print("What is Your age ?");
+  int? age = int.tryParse(stdin.readLineSync()!);
+
+  print("Your name is : $name \n your age is : $age");
 }
