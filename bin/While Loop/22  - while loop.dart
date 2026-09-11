@@ -1,12 +1,7 @@
-void main(){
-  
-  int i = 1900;
-do{
-  print(i);
-  i++;
-}
-  while(i < 1900);
-    
-  
-
+void main() {
+  int i = 1000;
+  do {
+    print(i);
+    i++;
+  } while (i < 1900);
 }

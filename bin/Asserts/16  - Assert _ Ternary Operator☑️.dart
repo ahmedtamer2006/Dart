@@ -1,7 +1,10 @@
+import 'dart:io';
+
 void main() {
-  int age = 50;
-  String message = (age > 20)
-      ? "Age is greater than 20"
-      : "Age is not greater than 20";
+  print("Enter your age please : ");
+  int? age = int.tryParse(stdin.readLineSync()!);
+  String message = (age != null && age > 20)
+      ? "Age is greater than 20" // = if
+      : "Age is not greater than 20"; // =else
   print(message);
 }

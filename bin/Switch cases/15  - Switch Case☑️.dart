@@ -1,7 +1,7 @@
 import "dart:io";
 
 void main() {
-    print("Enter a number between 1 and 5: ");
+  print("Enter a number between 1 and 5: ");
   int? number = int.tryParse(stdin.readLineSync()!);
 
   switch (number) {
@@ -21,11 +21,11 @@ void main() {
       print("Number is 4");
       break;
 
-      case 5:
+    case 5:
       print("Number is 5");
       break;
 
-      default:
+    default:
       print("Number is not between 1 and 5");
   }
 }
