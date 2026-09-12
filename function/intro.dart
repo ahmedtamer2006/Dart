@@ -3,7 +3,8 @@ import 'dart:io';
 void main() {
   double? w;
   double? h;
-  String name = "Ahmed";
+  print("Enter Your Name Please");
+  String? name = stdin.readLineSync();
 
   do {
     print("Enter Width Please : ");
@@ -20,7 +21,7 @@ void main() {
   area(w, h);
 }
 
-void area(w, h) {
+void area(double w, double h) {
   double c = w * h;
   print(c.toInt());
 }
