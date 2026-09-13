@@ -21,7 +21,4 @@ void main() {
   area(w, h);
 }
 
-void area(double w, double h) {
-  double c = w * h;
-  print(c.toInt());
-}
+void area(double w, double h) => w * h;
