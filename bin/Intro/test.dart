@@ -7,4 +7,10 @@ void main() {
   print(
     "Your name is : $name \n and your age is : ${age3.round()} \n Are you married ? $isMarried",
   );
+  print(
+    "Your name is : $name \n and your age is : ${age.round()} \n Are you married ? $isMarried",
+  );
+  print(
+    "Your name is : $name \n and your age is : ${age2.round()} \n Are you married ? $isMarried",
+  );
 }

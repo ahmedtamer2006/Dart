@@ -11,7 +11,7 @@ void main() {
     6 /* end index */,
   );
 
-  print(name.length); // get the length of the string
+  print(name2.length); // get the length of the string
   print(name.toUpperCase()); // convert all characters to upper case
   print(name.toLowerCase()); // convert all characters to lower case
   print(name.trim().length); //keep only the characters without spaces
