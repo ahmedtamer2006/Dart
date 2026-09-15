@@ -7,7 +7,7 @@
 // }
 
 void main() {
-  List names = ["Ahmed", "Tamer", "Elgamel"];
+  List<String> names = ["Ahmed", "Tamer", "Elgamel"];
   // forEach :
   //   names.forEach((element){
   // print("Welcome $element");
