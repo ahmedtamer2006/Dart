@@ -1,5 +1,4 @@
-void main()
-{
+void main() {
   List students = ["John", "Jane", "Jack", "Jill"];
   students[0] = "Johnny"; // Update the first element
   print(students.first); // Output: Johnny
@@ -8,15 +7,15 @@ void main()
   print(students.isNotEmpty); // Output: True or False
   print(students.reversed);
   print(students.indexOf("Jack")); // Output: 2
-  // Other properties: 
+  // Other properties:
   // students.single();
   print(students);
   print(students.hashCode);
   print(students.iterator);
-  students.add("Ahmed");// Return void
+  students.add("Ahmed"); // Return void
   print(students);
-  students.addAll(["Ahmed", 20 , "Student"]);
-  students.insert(2 , 35);
+  students.addAll(["Ahmed", 20, "Student"]);
+  students.insert(2, 35);
   print(students);
   students.remove("Jack");
   students.removeAt(0);
@@ -26,6 +25,5 @@ void main()
   print(students);
   students.sort();
   print(students);
-  print(students.sublist(1 , 3));
-  
+  print(students.sublist(1, 3));
 }

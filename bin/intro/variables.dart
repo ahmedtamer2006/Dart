@@ -2,7 +2,7 @@ void main() {
   String name = "Ahmed";
   int number = 19;
   double number1 = 19.7;
-  bool TF = true;
+  bool tf = true;
   num dynamic = 23;
   num dynamic1 = 23.5;
   bool isMarried = false;
@@ -11,7 +11,7 @@ void main() {
 
   print("Hello $name");
   print(number);
-  print(TF);
+  print(tf);
   print(number1);
   print(dynamic.toDouble());
   print(dynamic1.toInt());

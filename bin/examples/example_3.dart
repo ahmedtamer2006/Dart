@@ -12,5 +12,7 @@ void main() {
     discount = 0.0;
   }
   double priceAfterDis = price! - (price * discount);
-  print("The price after discount is : $priceAfterDis  Discount is : ${(discount* 100).toInt()}%" );
+  print(
+    "The price after discount is : $priceAfterDis  Discount is : ${(discount * 100).toInt()}%",
+  );
 }

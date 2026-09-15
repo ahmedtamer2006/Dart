@@ -4,9 +4,8 @@ import 'dart:io';
 void main() {
   print(" Please enter a number: ");
   int? number1 = int.tryParse(stdin.readLineSync()!);
-  if (number1 != null && number1 > 0) {
-    print("The number is positive.");
-  } else {
-    print("The number is negative.");
-  }
+  String message = (number1 != null && number1 > 0)
+      ? "The number is positive."
+      : "The number is negative.";
+  print(message);
 }
