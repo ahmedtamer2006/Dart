@@ -1,0 +1,3 @@
+void printName() {
+  print("Ahmed");
+}
