@@ -14,7 +14,7 @@ class Users {
   int? password;
   String? email;
 
-  Users({required this.userName, this.password, this.email});
+  Users({this.userName, this.password, this.email});
 
   // Methods (functions)
   void printUserInfo() {

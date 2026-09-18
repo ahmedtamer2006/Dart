@@ -1,20 +1,18 @@
 void main() {
-  Items items = Items("ahmed");
+  Items items = Items(name: "", code: "");
   items.itemInfo();
 }
 
 class Items {
   String? name;
-  /*
-  Items(String name2) {
-    name = name2;
-  }
-  */
-  // or
-  Items(
+  String? code;
+
+  Items({
     this.name,
-  ); /* [] this brackets to make parametars optional not obligatory */
+    this.code,
+  }); /* [] this brackets to make parametars optional not obligatory */
   void itemInfo() {
     print(name);
+    print(code);
   }
 }
