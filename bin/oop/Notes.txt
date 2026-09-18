@@ -1,25 +1,32 @@
+if (you want to pass var name in object use "{}" in constructor in class){
+    ex:
 void main() {
   Users users = Users(
-    userName: "Ahmed",
+    userName:"Ahmed",
     password: 1215458,
     email: "ahmedtamerfoc2000@gmail.com",
-  ); // create "objects" => Class name then object name = Class name();
+  );
 
   users.printUserInfo();
 }
 
 class Users {
-  // Properties (Variables)
+
   String? userName;
   int? password;
   String? email;
 
-  Users({required this.userName, this.password, this.email});
+  Users({this.userName, this.password, this.email});
 
-  // Methods (functions)
   void printUserInfo() {
     print(userName);
     print(password);
     print(email);
   }
 }
+
+
+} else{
+    dont use "{}"
+}
+
