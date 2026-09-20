@@ -1,32 +1,6 @@
-if (you want to pass var name in object use "{}" in constructor in class){
-    ex:
-void main() {
-  Users users = Users(
-    userName:"Ahmed",
-    password: 1215458,
-    email: "ahmedtamerfoc2000@gmail.com",
-  );
+1- Underscore mean : you can not access on this propertie "_balance" in file "usersmodel.dart"
+but how to call it ?
+ Answer: by create a method and return a propertie
+  such:
 
-  users.printUserInfo();
-}
-
-class Users {
-
-  String? userName;
-  int? password;
-  String? email;
-
-  Users({this.userName, this.password, this.email});
-
-  void printUserInfo() {
-    print(userName);
-    print(password);
-    print(email);
-  }
-}
-
-
-} else{
-    dont use "{}"
-}
 
