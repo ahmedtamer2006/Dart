@@ -1,8 +1,10 @@
 void main() {
+  //create objects form class
   Items items = Items(name: "", code: "");
   items.itemInfo();
 }
 
+//create class (Items)
 class Items {
   String? name;
   String? code;
@@ -10,7 +12,9 @@ class Items {
   Items({
     this.name,
     this.code,
-  }); /* [] this brackets to make parametars optional not obligatory */
+  }); /* [] / {} this brackets make parametars optional */
+
+  // Create method to print item info (name and code)
   void itemInfo() {
     print(name);
     print(code);

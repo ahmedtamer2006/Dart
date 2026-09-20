@@ -1,4 +1,6 @@
 void main() {
+  //create objects form class
+
   Users users = Users(
     userName: "Ahmed",
     password: 1215458,
@@ -7,6 +9,8 @@ void main() {
 
   users.printUserInfo();
 }
+
+//create class (Users)
 
 class Users {
   // Properties (Variables)
