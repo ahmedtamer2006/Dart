@@ -1,29 +1,27 @@
 class Users {
   String name;
   String age;
-  int _balance = 0;
+  int _balance = 0; // _balance is a encpsolation
 
   Users(this.name, this.age);
 
   //Getter
-  int? getBalance() {
-    return _balance;
-  }
+  int get balance => _balance;
 
-  void deposit(int val) {
+  set deposit(int val) {
     _balance = _balance + val;
   }
 
-  void withdraw(int val) {
+  set withdraw(int val) {
     if (_balance > val) {
       _balance = _balance - val;
     } else {
-      print("Your are broken");
+      print("Your are broken 😂");
     }
   }
 
   //Setter
-  void setBalance(dynamic val) {
+  set setBalance(dynamic val) {
     _balance = val;
   }
 }

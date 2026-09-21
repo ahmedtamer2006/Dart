@@ -11,7 +11,6 @@ void main() {
 }
 
 //create class (Users)
-
 class Users {
   // Properties (Variables)
   String? userName;
