@@ -6,12 +6,12 @@ void main() {
 class Users {
   String? name;
   //Constructor:
-  Users({this.name});
+  Users(this.name);
 }
 
 class Employee extends Users {
   // Super to inheret from constructor in the first class
-  Employee(String? name) : super(name: name) {
+  Employee(super.name) : super() {
     print("=> $name");
   }
 }
