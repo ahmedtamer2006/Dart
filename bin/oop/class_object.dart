@@ -15,7 +15,7 @@ class Users {
   // Properties (Variables)
   String? userName;
   int? password;
-  String? email;
+  // String? email;
 
   Users({this.userName, this.password, this.email});
 
